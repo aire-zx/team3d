@@ -1,0 +1,14 @@
+interface:
+  display_name: team3d
+  short_description: Inspect, repair, and verify existing Blender assets
+  default_prompt: Use $team3d to audit my existing Blender asset against its references
+    and verify any requested repairs.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
